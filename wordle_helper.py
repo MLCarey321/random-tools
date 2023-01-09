@@ -24,11 +24,9 @@ def check_word(word, required, options):
 
 
 with open("input.txt") as reader:
-    lines = reader.readlines()
-
-green = lines[0].strip().split()
-yellow = lines[1].strip().split()
-black = list(lines[2].strip())
+    green = reader.readline().strip().split()
+    yellow = reader.readline().strip().split()
+    black = list(reader.readline().strip())
 
 template = {i: "" for i in range(5)}
 for g in green:
