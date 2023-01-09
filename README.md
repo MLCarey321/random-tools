@@ -1,9 +1,9 @@
 # random-tools
 Random tools/scripts I make for myself
 
-## wordle-helper
+## [wordle-helper][1]
 This is a script I use to help me figure out what words are possible given what I already know from previous guesses.
-It depends on [nltk][1].corpus's `words` package, which requires you to:
+It depends on [nltk][2].corpus's `words` package, which requires you to:
 1. Install nltk
 1. Run the following in `python`: `nltk.download('words')`
 
@@ -38,4 +38,5 @@ lipin
 
 These are all of the 5-letter words that meet the constraints of what we already know about the word. In this case, the word ended up being `pixie`, which was the 3rd word in our output.
 
-[1]: https://www.nltk.org/install.html
+[1]: https://github.com/MLCarey321/random-tools/blob/main/wordle_helper.py
+[2]: https://www.nltk.org/install.html
