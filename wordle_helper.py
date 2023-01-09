@@ -23,7 +23,7 @@ def check_word(word, required, options):
             print(candidate)
 
 
-with open("letter_knowledge_v2.txt") as reader:
+with open("input.txt") as reader:
     lines = reader.readlines()
 
 green = lines[0].strip().split()
